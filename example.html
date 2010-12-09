@@ -1,0 +1,18 @@
+<html>
+<head>
+
+	<script type="text/javascript" charset="utf-8">
+	
+		// a necessary forwarder for youtube event
+		var onYouTubePlayerReady = function(arg) { if (current.video) {current.video.handle_youtube_player_ready(arg);} }
+		var onPlayerStateChange = function(arg) { if (current.video) {current.video.handle_youtube_player_state_change(arg);} }
+		var onPlayerError = function(arg) { if (current.video) {current.video.handle_youtube_player_error(arg);} }
+
+	</script>
+
+
+</head>
+<body>
+
+</body>
+</html>
